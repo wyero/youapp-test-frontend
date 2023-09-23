@@ -1,0 +1,8 @@
+Pengerjaan test frontend ini menggunakan teknologi React JS dan CSS
+
+beberapa masalah dan kekurangan dalam pengerjaan test :
+
+1. tidak bisa mengakses api menggunakan react
+2. untuk bagian register disini saya menggunakan localstorage untuk menyimpan data registernya 
+3. pertama kali register harus memasukkan datanya 2 kali, 
+   karena ketika data pertama yang dimasukkan maka data yang tersimpan di locastoragenya adalah array kosong
