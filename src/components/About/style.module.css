@@ -1,0 +1,75 @@
+.about {
+  margin-top: 2rem;
+}
+
+.inputImage {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-weight: 500;
+  font-size: 12px;
+  cursor: pointer;
+  margin-bottom: 2rem;
+}
+
+.inputImage > div {
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 17px;
+  width: 57px;
+  height: 57px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon {
+  font-size: 3rem;
+  color: rgba(243, 237, 166, 1);
+}
+
+.inputControl {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0.5rem 0;
+}
+
+.inputControl > label {
+  color: rgba(255, 255, 255, 0.33);
+  font-size: 13px;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+.inputControl > input, select {
+  background: linear-gradient(
+    rgba(217, 217, 217, 0.06),
+    rgba(217, 217, 217, 0.06)
+  );
+  border: 1px solid rgba(255, 255, 255, 0.22);
+  height: 36px;
+  border-radius: 8px;
+  text-align: end;
+  padding-right: 1rem;
+  color: #ffffff;
+  outline: none;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.inputControl > select {
+  width: 100%;
+}
+
+.inputControl > select > option{
+  background: linear-gradient(
+    rgba(217, 217, 217, 0.06),
+    rgba(217, 217, 217, 0.06)
+  );
+}
+
+.inputGender {
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+}

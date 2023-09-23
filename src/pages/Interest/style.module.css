@@ -1,0 +1,68 @@
+.interest {
+  background: linear-gradient(
+    rgba(31, 66, 71, 1),
+    rgba(13, 29, 35, 1),
+    rgba(9, 20, 26, 1)
+  );
+  height: 100vh;
+}
+
+.section {
+  margin: 0 0.7rem;
+}
+
+.section > p:first-of-type{
+  color: rgba(243, 237, 166, 1);
+  font-weight: 700;
+  font-size: 14px;
+  margin-bottom: 0.5rem;
+}
+
+.section > :last-of-type {
+  color: rgba(255, 255, 255, 1);
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.section > input {
+  background: rgba(217, 217, 217, 0.06);
+  border-radius: 10px;
+  height: 40px;
+  border: none;
+  outline: none;
+  padding: 0 1rem;
+  margin-top: 2rem;
+  font-weight: 500;
+  width: 80%;
+  font-size: 14px !important;
+  font-weight: 400 !important;
+}
+
+.listData{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+  background: rgba(217, 217, 217, 0.06);
+  border-radius: 10px;
+  padding: 0.5rem;
+  margin-top: 1rem;
+}
+
+.listData > li {
+  font-size: 12px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 4px;
+  padding: 8px 4px 8px 8px;
+  display: flex;
+  align-items: center;
+}
+
+.listData > li > button {
+  background: inherit;
+  border: none;
+  color: white;
+  margin-left: 0.5rem;
+  cursor: pointer;
+}

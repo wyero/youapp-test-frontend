@@ -1,0 +1,28 @@
+.background {
+  background: linear-gradient(
+    rgba(31, 66, 71, 1),
+    rgba(13, 29, 35, 1),
+    rgba(9, 20, 26, 1)
+  );
+}
+
+.msgError {
+  font-size: 12px;
+  text-align: center;
+  margin: 0.5rem 0;
+  color: red;
+}
+
+.link {
+  font-size: 13px;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.linktoLogin {
+  color: rgba(243, 237, 166, 1);
+}
+
+.valid {
+  opacity: 0.5;
+}

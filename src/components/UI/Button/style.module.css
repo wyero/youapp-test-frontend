@@ -1,0 +1,15 @@
+.button {
+  background: linear-gradient(rgba(98, 205, 203, 1), rgba(69, 153, 219, 1));
+  height: 40px;
+  text-align: center;
+  font-weight: 700;
+  border-radius: 8px;
+  text-transform: capitalize;
+  color: rgba(255, 255, 255, 1);
+  width: 100%;
+  font-size: 16px;
+  font-family: 'Inter', sans-serif;
+  border: none;
+  cursor: pointer;
+  margin: 2rem 0;
+}

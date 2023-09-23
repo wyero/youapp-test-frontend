@@ -1,0 +1,14 @@
+.profile {
+  background: rgba(22, 35, 41, 1);
+  border-radius: 16px;
+  height: 190px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.profile > p{
+  margin: 0 0 1rem 1rem;
+  font-weight: 700;
+  font-size: 16px;
+}
+
